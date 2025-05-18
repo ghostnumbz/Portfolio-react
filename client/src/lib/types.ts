@@ -19,40 +19,14 @@ export const projectsData: Project[] = [
     description: "A full-featured online store with product catalog, shopping cart, and secure checkout process.",
     image: "https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
     technologies: [
-      { name: "React", color: "bg-blue-100 text-blue-800" },
-      { name: "Node.js", color: "bg-green-100 text-green-800" },
-      { name: "MongoDB", color: "bg-purple-100 text-purple-800" },
-      { name: "Stripe API", color: "bg-yellow-100 text-yellow-800" }
+      { name: "Python", color: "bg-blue-100 text-blue-800" },
+      { name: "Socket", color: "bg-green-100 text-green-800" },
+     
     ],
     demoUrl: "#",
     codeUrl: "#"
   },
-  {
-    title: "Task Management App",
-    description: "A productivity tool for managing projects, tracking tasks, and collaborating with team members.",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
-    technologies: [
-      { name: "Vue.js", color: "bg-blue-100 text-blue-800" },
-      { name: "Firebase", color: "bg-red-100 text-red-800" },
-      { name: "Tailwind CSS", color: "bg-teal-100 text-teal-800" },
-      { name: "Chart.js", color: "bg-orange-100 text-orange-800" }
-    ],
-    demoUrl: "#",
-    codeUrl: "#"
-  },
-  {
-    title: "Weather Forecast App",
-    description: "A weather application that provides real-time forecasts and historical data for any location.",
-    image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
-    technologies: [
-      { name: "JavaScript", color: "bg-blue-100 text-blue-800" },
-      { name: "OpenWeather API", color: "bg-gray-100 text-gray-800" },
-      { name: "Express.js", color: "bg-green-100 text-green-800" },
-      { name: "D3.js", color: "bg-purple-100 text-purple-800" }
-    ],
-    demoUrl: "#",
-    codeUrl: "#"
-  }
+ 
 ];
 
 // Skills data
