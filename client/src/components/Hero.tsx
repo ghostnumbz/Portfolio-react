@@ -77,7 +77,7 @@ export default function Hero() {
           </div>
           <div className="order-1 lg:order-2 flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2I-6hcxQtRJJ6pNin1yt3UO2sYh-Jw9iYhw&s"
               alt="Yaswanth- Full Stack Developer"
               className="rounded-full w-56 h-56 md:w-80 md:h-80 object-cover border-8 border-white shadow-xl animate-fade-in"
             />
