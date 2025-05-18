@@ -11,7 +11,7 @@ export default function About() {
           <div className="relative">
             <img 
               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=700" 
-              alt="John working as a developer" 
+              alt="yaswanth working as a developer" 
               className="rounded-lg shadow-xl w-full h-auto object-cover"
             />
             <div className="absolute -bottom-6 -right-6 bg-primary/90 text-white p-6 rounded-lg shadow-lg hidden md:block">
@@ -37,25 +37,25 @@ export default function About() {
             <div className="grid grid-cols-2 gap-6">
               <div>
                 <h4 className="font-heading font-semibold mb-3">Education</h4>
-                <p className="text-gray-700 mb-1">B.S. Computer Science</p>
-                <p className="text-gray-600 text-sm">University of Technology, 2021</p>
+                <p className="text-gray-700 mb-1">B Tech Information Technology</p>
+                <p className="text-gray-600 text-sm">Global Institute of Engineering and Technology, 2026</p>
               </div>
               <div>
                 <h4 className="font-heading font-semibold mb-3">Location</h4>
                 <p className="text-gray-700 flex items-center">
-                  <i className="fas fa-map-marker-alt mr-2 text-primary"></i> San Francisco, California
+                  <i className="fas fa-map-marker-alt mr-2 text-primary"></i> Tamil Nadu, Ranipet
                 </p>
               </div>
               <div>
                 <h4 className="font-heading font-semibold mb-3">Email</h4>
                 <p className="text-gray-700 flex items-center">
-                  <i className="fas fa-envelope mr-2 text-primary"></i> john@example.com
+                  <i className="fas fa-envelope mr-2 text-primary"></i> kumaryaswanth769@gmail.com
                 </p>
               </div>
               <div>
                 <h4 className="font-heading font-semibold mb-3">Interests</h4>
                 <p className="text-gray-700">
-                  Web Apps, UI/UX, Cloud Computing
+                  Web Apps, Cloud Computing
                 </p>
               </div>
             </div>

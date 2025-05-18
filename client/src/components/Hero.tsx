@@ -7,8 +7,8 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <p className="text-primary font-medium mb-2 animate-fade-in">Hello, I'm</p>
-            <h1 className="text-5xl md:text-6xl font-heading font-bold mb-4 animate-fade-in animate-delay-100">John Doe</h1>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-600 mb-6 animate-fade-in animate-delay-200">Full Stack Developer</h2>
+            <h1 className="text-5xl md:text-6xl font-heading font-bold mb-4 animate-fade-in animate-delay-100">Yaswanth Kumar</h1>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-600 mb-6 animate-fade-in animate-delay-200">Aspiring Full Stack Developer</h2>
             <p className="text-lg text-gray-600 mb-8 max-w-lg animate-fade-in animate-delay-300">
               I build responsive, user-friendly web applications with modern technologies.
               Passionate about creating clean, efficient, and scalable solutions.

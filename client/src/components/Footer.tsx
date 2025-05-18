@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#home" className="text-2xl font-heading font-bold">
-              <span className="text-white">John</span><span className="text-primary">Doe</span>
+              <span className="text-white">Yaswanth</span><span className="text-primary">Kumar</span>
             </a>
             <p className="text-gray-400 mt-2">Full Stack Developer</p>
           </div>
@@ -18,7 +18,7 @@ export default function Footer() {
               <a href="#skills" className="text-gray-400 hover:text-white transition-colors">Skills</a>
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a>
             </div>
-            <p className="text-gray-400 text-sm">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Yaswanth Kumar. All rights reserved.</p>
           </div>
         </div>
       </div>

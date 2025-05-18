@@ -148,11 +148,11 @@ export const certificatesData: CertificateCategory[] = [
     icon: "fas fa-laptop-code",
     certificates: [
       {
-        name: "Advanced React and Redux",
-        issuer: "Udemy",
-        date: "March 2023",
+        name: "HTML & CSS",
+        issuer: "GUVI Geek Network",
+        date: "May 2025",
         credentialUrl: "#",
-        description: "Mastered advanced React concepts, Redux state management, and frontend architecture"
+        description: "Completed HTML & CSS course from GUVI with practical experience in responsive web design."
       },
       {
         name: "Advanced CSS and Sass",

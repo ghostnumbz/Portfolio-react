@@ -34,7 +34,7 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="text-2xl font-heading font-bold text-primary">
-            <span className="text-dark">John</span>Doe
+            <span className="text-dark">Yaswanth</span>Kumar
           </a>
           
           {/* Desktop Navigation */}
