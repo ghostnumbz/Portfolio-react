@@ -124,22 +124,24 @@ export const certificatesData: CertificateCategory[] = [
         name: "HTML & CSS",
         issuer: "GUVI Geek Network",
         date: "May 2025",
-        credentialUrl: "#",
+        credentialUrl:
+          "https://www.guvi.in/share-certificate/41526TqSeU75l0VM66",
         description:
           "Completed HTML & CSS course from GUVI with practical experience in responsive web design.",
       },
       {
-        name: "Advanced CSS and Sass",
-        issuer: "Udemy",
-        date: "January 2022",
-        credentialUrl: "#",
+        name: "JavaScript For Beginners",
+        issuer: "GUVI Geek Network",
+        date: "May 2025",
+        credentialUrl:
+          "https://www.guvi.in/share-certificate/772dls13PaU34175A5",
         description:
-          "Created complex layouts, animations, and responsive designs with modern CSS",
+          "A beginner-friendly JavaScript course designed to build a strong foundation in web development through hands-on learning",
       },
       {
-        name: "JavaScript Algorithms and Data Structures",
-        issuer: "freeCodeCamp",
-        date: "May 2022",
+        name: "React",
+        issuer: "GUVI Geek Network",
+        date: "Comming soon",
         credentialUrl: "#",
         description:
           "Implemented complex algorithms and data structures in JavaScript",
@@ -152,57 +154,27 @@ export const certificatesData: CertificateCategory[] = [
     certificates: [
       {
         name: "Node.js - The Complete Guide",
-        issuer: "Udemy",
-        date: "April 2023",
+        issuer: "GUVI Geek Network",
+        date: "Comming Soon",
         credentialUrl: "#",
         description:
           "Built scalable backend applications with Node.js, Express, and MongoDB",
       },
-      {
-        name: "Advanced SQL and Database Design",
-        issuer: "DataCamp",
-        date: "November 2022",
-        credentialUrl: "#",
-        description:
-          "Mastered SQL query optimization, database design, and normalization principles",
-      },
-      {
-        name: "RESTful API Design",
-        issuer: "Pluralsight",
-        date: "September 2022",
-        credentialUrl: "#",
-        description:
-          "Designed secure, efficient, and scalable RESTful APIs with industry best practices",
-      },
     ],
   },
+
   {
     category: "Cloud",
     icon: "fas fa-cloud",
     certificates: [
       {
-        name: "AWS Certified Developer - Associate",
-        issuer: "Amazon Web Services",
-        date: "August 2023",
-        credentialUrl: "#",
+        name: "Google Cloud Data Analytics Certificate",
+        issuer: "Google Cloud Platform",
+        date: "December 2024",
+        credentialUrl:
+          "https://www.credly.com/badges/cf09f88c-092f-4036-aa8b-6ca538c20c47/public_url",
         description:
-          "Developed, deployed, and debugged cloud-based applications using AWS services",
-      },
-      {
-        name: "Google Cloud Platform Fundamentals",
-        issuer: "Google Cloud",
-        date: "February 2023",
-        credentialUrl: "#",
-        description:
-          "Built scalable applications using Google Cloud's compute, storage, and database services",
-      },
-      {
-        name: "Azure Fundamentals (AZ-900)",
-        issuer: "Microsoft",
-        date: "December 2022",
-        credentialUrl: "#",
-        description:
-          "Gained foundational knowledge of cloud concepts and Microsoft Azure services",
+          "Learn to collect, analyze, and visualize data using Google Cloud tools",
       },
     ],
   },
@@ -213,26 +185,10 @@ export const certificatesData: CertificateCategory[] = [
       {
         name: "Docker and Kubernetes: The Complete Guide",
         issuer: "Udemy",
-        date: "February 2023",
+        date: "comming soon",
         credentialUrl: "#",
         description:
           "Containerized applications with Docker and orchestrated deployments with Kubernetes",
-      },
-      {
-        name: "Professional Scrum Master I (PSM I)",
-        issuer: "Scrum.org",
-        date: "April 2023",
-        credentialUrl: "#",
-        description:
-          "Applied Agile principles and Scrum methodologies to software development projects",
-      },
-      {
-        name: "Machine Learning Fundamentals",
-        issuer: "Coursera",
-        date: "June 2022",
-        credentialUrl: "#",
-        description:
-          "Implemented machine learning algorithms for data analysis and prediction models",
       },
     ],
   },
