@@ -42,25 +42,25 @@ export default function Hero() {
             </div>
             <div className="flex gap-6 mt-10 animate-fade-in animate-delay-500">
               <a
-                href="#"
+                href="https://github.com/ghostnumbz"
                 className="text-gray-600 hover:text-primary transition-colors text-xl"
               >
                 <i className="fab fa-github"></i>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/yaswanth-kumar-1aa95b248/"
                 className="text-gray-600 hover:text-primary transition-colors text-xl"
               >
                 <i className="fab fa-linkedin"></i>
               </a>
               <a
-                href="#"
+                href="https://x.com/ghostnumbz"
                 className="text-gray-600 hover:text-primary transition-colors text-xl"
               >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="#"
+                href="mailto:kumaryaswanth769@gmail.com"
                 className="text-gray-600 hover:text-primary transition-colors text-xl"
               >
                 <i className="fas fa-envelope"></i>
