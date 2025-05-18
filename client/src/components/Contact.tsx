@@ -19,7 +19,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-heading font-medium">Location</h4>
-                <p className="text-gray-600 mt-1">San Francisco, California, USA</p>
+                <p className="text-gray-600 mt-1">Ranipet,Tamil Nadu,India</p>
               </div>
             </div>
             
@@ -29,7 +29,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-heading font-medium">Email</h4>
-                <p className="text-gray-600 mt-1">john@example.com</p>
+                <p className="text-gray-600 mt-1">kumaryaswanth769@gmail.com</p>
               </div>
             </div>
             
@@ -39,7 +39,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-heading font-medium">Phone</h4>
-                <p className="text-gray-600 mt-1">(123) 456-7890</p>
+                <p className="text-gray-600 mt-1">+91 6382199367</p>
               </div>
             </div>
             
