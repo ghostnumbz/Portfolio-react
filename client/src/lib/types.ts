@@ -19,13 +19,27 @@ export const projectsData: Project[] = [
     description:
       "A fast and lightweight Python-based port scanner for quickly identifying open ports on target hosts",
     image:
-      "https://cdn.vectorstock.com/i/1000x1000/46/50/port-scanner-vector-35924650.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMzWgTAFowO3-TkRJdUUV36-SwH1fbxuTAw&s",
     technologies: [
       { name: "Python", color: "bg-blue-100 text-blue-800" },
       { name: "Socket", color: "bg-green-100 text-green-800" },
     ],
     demoUrl: "#",
-    codeUrl: "#",
+    codeUrl: "https://github.com/ghostnumbz/NumbScan",
+  },
+
+  {
+    title: "Portfolio-React Website",
+    description:
+      "A fast and lightweight Python-based port scanner for quickly identifying open ports on target hosts",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFGBTwrc-m2PX_3YlVq-RcE25W8wv96dBTw&s",
+    technologies: [
+      { name: "React", color: "bg-blue-100 text-blue-800" },
+      { name: "TypeScript", color: "bg-green-100 text-green-800" },
+    ],
+    demoUrl: "#",
+    codeUrl: "https://github.com/ghostnumbz/Portfolio-react",
   },
 ];
 
