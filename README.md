@@ -38,7 +38,10 @@ npm run lint – Lints the codebase using ESLint
 You can deploy this project using services like Vercel, Netlify, or GitHub Pages.
 
 🙋‍♂️ Author
-Your Name – @ghostnumbz
+ [Yaswanth Kumar] (https://github.com/ghostnumbz)
+
+👤Contributors
+ [SAIKRISHNA] (https://github.com/SNSAIKRISHNA)
 
 🌐 Live Preview
 Check out the live version [Link](https://ghostnumbz.netlify.app/)
