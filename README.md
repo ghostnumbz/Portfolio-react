@@ -40,7 +40,7 @@ You can deploy this project using services like Vercel, Netlify, or GitHub Pages
 🙋‍♂️ Author
  [Yaswanth Kumar] (https://github.com/ghostnumbz)
 
-👤Contributors
+👤Contributor
  [SAIKRISHNA] (https://github.com/SNSAIKRISHNA)
 
 🌐 Live Preview
