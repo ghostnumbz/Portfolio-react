@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
   {
     title: "Portfolio-React Website",
     description:
-      "A fast and lightweight Python-based port scanner for quickly identifying open ports on target hosts",
+      "A modern React-based portfolio showcasing my projects, skills, and experience in web development with a clean and responsive design.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFGBTwrc-m2PX_3YlVq-RcE25W8wv96dBTw&s",
     technologies: [
