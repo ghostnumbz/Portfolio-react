@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "../assets/Profile.jpg" 
 
 export default function Hero() {
   return (
@@ -77,7 +78,7 @@ export default function Hero() {
           </div>
           <div className="order-1 lg:order-2 flex justify-center">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2I-6hcxQtRJJ6pNin1yt3UO2sYh-Jw9iYhw&s"
+              src= {Image}
               alt="Yaswanth- Full Stack Developer"
               className="rounded-full w-56 h-56 md:w-80 md:h-80 object-cover border-8 border-white shadow-xl animate-fade-in"
             />
