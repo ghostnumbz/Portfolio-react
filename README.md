@@ -41,4 +41,4 @@ You can deploy this project using services like Vercel, Netlify, or GitHub Pages
 Your Name – @ghostnumbz
 
 🌐 Live Preview
-Check out the live version [Link Text](https://ghostnumbz.netlify.app/)
+Check out the live version [Link](https://ghostnumbz.netlify.app/)
