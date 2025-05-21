@@ -52,7 +52,7 @@ export default function Contact() {
               <div>
                 <h4 className="font-heading font-medium">Working Hours</h4>
                 <p className="text-gray-600 mt-1">
-                  Monday - Friday: 9 AM to 5 PM PST
+                  Monday - Saturday: 9 AM to 5 PM PST
                 </p>
               </div>
             </div>
