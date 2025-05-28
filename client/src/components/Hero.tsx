@@ -40,15 +40,8 @@ export default function Hero() {
               >
                 <a href="#contact">Contact Me</a>
               </Button>
-
-              <Button
-                asChild
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-white shadow-md"
-              >
-                <a href="#projects">Download cv</a>
-              </Button>
             </div>
+            
             <div className="flex gap-6 mt-10 animate-fade-in animate-delay-500">
               <a
                 href="https://github.com/ghostnumbz"
