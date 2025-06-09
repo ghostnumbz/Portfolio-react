@@ -62,7 +62,7 @@ export default function Hero() {
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="mailto:kumaryaswanth769@gmail.com"
+                href="mailto: yaswanth.kumar.it@outlook.com"
                 className="text-gray-600 hover:text-primary transition-colors text-xl"
               >
                 <i className="fas fa-envelope"></i>

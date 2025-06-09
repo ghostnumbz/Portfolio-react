@@ -80,7 +80,7 @@ export default function Contact() {
                 <i className="fab fa-twitter text-xl"></i>
               </a>
               <a
-                href="mailto:kumaryaswanth769@gmail.com"
+                href="mailto: yaswanth.kumar.it@outlook.com"
                 className="bg-gray-200 hover:bg-primary hover:text-white transition-colors p-4 rounded-full"
               >
                 <i className="fas fa-envelope text-xl"></i>
