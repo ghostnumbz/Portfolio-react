@@ -31,7 +31,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-heading font-medium">Email</h4>
-                <p className="text-gray-600 mt-1">kumaryaswanth769@gmail.com</p>
+                <p className="text-gray-600 mt-1">yaswanth.kumar.it@outlook.com</p>
               </div>
             </div>
 
