@@ -64,7 +64,9 @@ export default function About() {
                 <h4 className="font-heading font-semibold mb-3">Email</h4>
                 <p className="text-gray-700 flex items-center">
                   <i className="fas fa-envelope mr-2 text-primary"></i>{" "}
-                  kumaryaswanth769@gmail.com
+                  <a href="mailto:yaswanth.kumar.it@outlook.com">
+                    yaswanth.kumar.it@outlook.com{" "}
+                  </a>
                 </p>
               </div>
             </div>
