@@ -155,10 +155,10 @@ export const certificatesData: CertificateCategory[] = [
       {
         name: "React",
         issuer: "GUVI Geek Network",
-        date: "Comming soon",
-        credentialUrl: "#",
+        date: "June 2025",
+        credentialUrl: "https://www.guvi.in/share-certificate/b9UBp231503n7e92LD",
         description:
-          "Implemented complex algorithms and data structures in JavaScript",
+          "Master React.js to build fast, interactive web apps.",
       },
     ],
   },
