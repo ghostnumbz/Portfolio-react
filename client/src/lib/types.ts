@@ -45,8 +45,9 @@ export const projectsData: Project[] = [
   {
     title: "Bookify - Node.js REST API",
     description:
-      "A simple RESTful API built with Express.js to manage a book collection. Supports operations like creating, retrieving, and deleting books using HTTP methods.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQSIPr1mX9ym5PDF5_-pPXz4X27uIQNUaNOMIsbbjx59b28EhwaN6_AVStJbLNilF0LGg&usqp=CAU",
+      "A simple Node.js-based REST API for managing a book collection, supporting CRUD operations with clean routing and structured JSON responses.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQSIPr1mX9ym5PDF5_-pPXz4X27uIQNUaNOMIsbbjx59b28EhwaN6_AVStJbLNilF0LGg&usqp=CAU",
     technologies: [
       { name: "Node.js", color: "bg-green-100 text-green-800" },
       { name: "Express.js", color: "bg-yellow-100 text-yellow-800" },
@@ -70,63 +71,59 @@ export interface OtherSkill {
 
 export const frontendSkills: Skill[] = [
   { name: "HTML5 & CSS3", level: 70 },
-  { name: "JavaScript ", level: 30 },
-  { name: "React", level: 30 },
-  { name: "Tailwind CSS", level: 5 },
+  { name: "JavaScript ", level: 70 },
+  { name: "React", level: 50 },
+  { name: "Tailwind CSS", level: 30 },
 ];
 
 export const backendSkills: Skill[] = [
-  { name: "Node.js & Express", level: 0 },
-  { name: "MongoDB", level: 0 },
-  { name: "SQL (MySQL, PostgreSQL)", level: 0 },
-  { name: "RESTful APIs", level: 0 },
-  { name: "Firebase", level: 0 },
+  { name: "Node.js & Express", level: 60 },
+  { name: "MongoDB", level: 45 },
+  { name: "SQL (MySQL, PostgreSQL)", level: 30 },
+  { name: "RESTful APIs", level: 50 },
+  { name: "Firebase", level: 10 },
 ];
 
 export const databaseSkills: Skill[] = [
   { name: "MongoDB", level: 0 },
   { name: "PostgreSQL", level: 0 },
   { name: "MySQL", level: 0 },
-  { name: "Firebase Firestore", level: 0 },
-  { name: "Redis", level: 0 },
+ 
 ];
 
 export const cloudSkills: Skill[] = [
-  { name: "AWS", level: 0 },
-  { name: "Google Cloud Platform", level: 35 },
-  { name: "Azure", level: 0 },
-  { name: "Heroku", level: 0 },
-  { name: "Netlify/Vercel", level: 10 },
+  { name: "AWS", level: 60 },
+  { name: "Google Cloud Platform", level: 70 },
+  { name: "Netlify/Vercel", level: 40 },
 ];
 
 export const skillsInProgress: Skill[] = [
-  { name: "Neural Networks", level: 45 },
-  { name: "Deep Learning", level: 40 },
+  { name: "Neural Networks & Deep Learning", level: 30 },
   { name: "Computer Networking", level: 55 },
-  { name: "Blockchain Development", level: 0 },
   { name: "Cybersecurity", level: 50 },
 ];
 
 export const otherSkills: OtherSkill[] = [
-  { name: "Git", icon: "fab fa-git-alt" },
+  { name: "Git & GitHub", icon: "fab fa-git-alt" },
+  { name: "Linux/Command Line", icon: "fas fa-terminal" },
   { name: "Docker", icon: "fab fa-docker" },
-  { name: "AWS", icon: "fab fa-aws" },
-  { name: "Responsive Design", icon: "fas fa-mobile-alt" },
-  { name: "Web Accessibility", icon: "fas fa-universal-access" },
-  { name: "Performance Optimization", icon: "fas fa-tachometer-alt" },
+  { name: "AWS (EC2, S3)", icon: "fab fa-aws" },
+  { name: "Google Cloud Platform", icon: "fas fa-cloud" },
   { name: "CI/CD", icon: "fas fa-code-branch" },
-  { name: "Command Line", icon: "fas fa-terminal" },
-  { name: "GraphQL", icon: "fas fa-project-diagram" },
-  { name: "Jest/Testing", icon: "fas fa-vial" },
+  { name: "Cybersecurity Basics", icon: "fas fa-user-shield" },
+  { name: "Networking Fundamentals", icon: "fas fa-network-wired" },
+  { name: "REST APIs", icon: "fas fa-plug" },
+  { name: "Postman/API Testing", icon: "fas fa-vial" },
   { name: "TypeScript", icon: "fab fa-js-square" },
-  { name: "Agile/Scrum", icon: "fas fa-users" },
-  { name: "UI/UX Design", icon: "fas fa-paint-brush" },
+  { name: "Node.js", icon: "fab fa-node-js" },
+  { name: "MongoDB", icon: "fas fa-database" },
+  { name: "Express.js", icon: "fas fa-server" },
   { name: "Data Structures", icon: "fas fa-sitemap" },
   { name: "Algorithms", icon: "fas fa-sort-numeric-down" },
-  { name: "Computer Networking", icon: "fas fa-network-wired" },
-  { name: "SEO", icon: "fas fa-search" },
-  { name: "System Design", icon: "fas fa-project-diagram" },
+  { name: "Agile/Scrum", icon: "fas fa-users" },
+  { name: "System Design Basics", icon: "fas fa-project-diagram" },
 ];
+
 
 // Certificate data
 export interface Certificate {
@@ -157,15 +154,7 @@ export const certificatesData: CertificateCategory[] = [
         description:
           "Completed HTML & CSS course from GUVI with practical experience in responsive web design.",
       },
-      {
-        name: "JavaScript For Beginners",
-        issuer: "GUVI Geek Network",
-        date: "May 2025",
-        credentialUrl:
-          "https://www.guvi.in/share-certificate/772dls13PaU34175A5",
-        description:
-          "A beginner-friendly JavaScript course designed to build a strong foundation in web development through hands-on learning",
-      },
+    
       {
         name: "React",
         issuer: "GUVI Geek Network",
@@ -180,10 +169,22 @@ export const certificatesData: CertificateCategory[] = [
     category: "Backend",
     icon: "fas fa-server",
     certificates: [
+
+      {
+        name: "JavaScript For Beginners",
+        issuer: "GUVI Geek Network",
+        date: "May 2025",
+        credentialUrl:
+          "https://www.guvi.in/share-certificate/772dls13PaU34175A5",
+        description:
+          "A beginner-friendly JavaScript course designed to build a strong foundation in web development through hands-on learning",
+      },
+      
+      
       {
         name: "Node.js - The Complete Guide",
         issuer: "GUVI Geek Network",
-        date: "Comming Soon",
+        date: "currently learning",
         credentialUrl: "#",
         description:
           "Built scalable backend applications with Node.js, Express, and MongoDB",

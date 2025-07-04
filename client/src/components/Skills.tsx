@@ -27,9 +27,7 @@ export default function Skills() {
           <div>
             <h3 className="text-xl font-heading font-semibold mb-6">
               Frontend Development
-              <span className="ml-2 text-sm text-red-500 font-normal italic">
-                (Currently Learning)
-              </span>
+              
             </h3>
 
             <div className="space-y-6">
@@ -54,6 +52,9 @@ export default function Skills() {
           <div>
             <h3 className="text-xl font-heading font-semibold mb-6">
               Backend Development
+              <span className="ml-2 text-sm text-red-500 font-normal italic">
+                (Currently Learning)
+              </span>
             </h3>
 
             <div className="space-y-6">
@@ -78,6 +79,9 @@ export default function Skills() {
           <div>
             <h3 className="text-xl font-heading font-semibold mb-6">
               Database Systems
+              <span className="ml-2 text-sm text-red-500 font-normal italic">
+                (Currently Learning)
+              </span>
             </h3>
 
             <div className="space-y-6">
@@ -126,9 +130,7 @@ export default function Skills() {
           <div>
             <h3 className="text-xl font-heading font-semibold mb-6 flex items-center">
               Other Skills
-              <span className="ml-2 text-sm text-red-500 font-normal italic">
-                (Currently Learning)
-              </span>
+              
             </h3>
 
             <div className="space-y-6">
