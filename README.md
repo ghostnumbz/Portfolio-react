@@ -44,4 +44,4 @@ You can deploy this project using services like Vercel, Netlify, or GitHub Pages
  [SAIKRISHNA](https://github.com/SNSAIKRISHNA)
 
 🌐 Live Preview
-Check out the live version [Link](https://ghostnumbz.netlify.app/)
+Check out the live version [Link](https://yaswanthkumar-it.netlify.app/)
