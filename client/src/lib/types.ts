@@ -41,6 +41,20 @@ export const projectsData: Project[] = [
     demoUrl: "#",
     codeUrl: "https://github.com/ghostnumbz/Portfolio-react",
   },
+
+  {
+    title: "Bookify - Node.js REST API",
+    description:
+      "A simple RESTful API built with Express.js to manage a book collection. Supports operations like creating, retrieving, and deleting books using HTTP methods.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQSIPr1mX9ym5PDF5_-pPXz4X27uIQNUaNOMIsbbjx59b28EhwaN6_AVStJbLNilF0LGg&usqp=CAU",
+    technologies: [
+      { name: "Node.js", color: "bg-green-100 text-green-800" },
+      { name: "Express.js", color: "bg-yellow-100 text-yellow-800" },
+      { name: "REST API", color: "bg-blue-100 text-blue-800" },
+    ],
+    demoUrl: "#",
+    codeUrl: "https://github.com/ghostnumbz/bookify.git",
+  },
 ];
 
 // Skills data
@@ -156,9 +170,9 @@ export const certificatesData: CertificateCategory[] = [
         name: "React",
         issuer: "GUVI Geek Network",
         date: "June 2025",
-        credentialUrl: "https://www.guvi.in/share-certificate/b9UBp231503n7e92LD",
-        description:
-          "Master React.js to build fast, interactive web apps.",
+        credentialUrl:
+          "https://www.guvi.in/share-certificate/b9UBp231503n7e92LD",
+        description: "Master React.js to build fast, interactive web apps.",
       },
     ],
   },
