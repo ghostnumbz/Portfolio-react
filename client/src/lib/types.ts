@@ -88,7 +88,6 @@ export const databaseSkills: Skill[] = [
   { name: "MongoDB", level: 0 },
   { name: "PostgreSQL", level: 0 },
   { name: "MySQL", level: 0 },
- 
 ];
 
 export const cloudSkills: Skill[] = [
@@ -124,7 +123,6 @@ export const otherSkills: OtherSkill[] = [
   { name: "System Design Basics", icon: "fas fa-project-diagram" },
 ];
 
-
 // Certificate data
 export interface Certificate {
   name: string;
@@ -154,7 +152,17 @@ export const certificatesData: CertificateCategory[] = [
         description:
           "Completed HTML & CSS course from GUVI with practical experience in responsive web design.",
       },
-    
+
+      {
+        name: "JavaScript For Beginners",
+        issuer: "GUVI Geek Network",
+        date: "May 2025",
+        credentialUrl:
+          "https://www.guvi.in/share-certificate/772dls13PaU34175A5",
+        description:
+          "A beginner-friendly JavaScript course designed to build a strong foundation in web development through hands-on learning",
+      },
+
       {
         name: "React",
         issuer: "GUVI Geek Network",
@@ -169,18 +177,6 @@ export const certificatesData: CertificateCategory[] = [
     category: "Backend",
     icon: "fas fa-server",
     certificates: [
-
-      {
-        name: "JavaScript For Beginners",
-        issuer: "GUVI Geek Network",
-        date: "May 2025",
-        credentialUrl:
-          "https://www.guvi.in/share-certificate/772dls13PaU34175A5",
-        description:
-          "A beginner-friendly JavaScript course designed to build a strong foundation in web development through hands-on learning",
-      },
-      
-      
       {
         name: "Node.js - The Complete Guide",
         issuer: "GUVI Geek Network",
