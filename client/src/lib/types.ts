@@ -29,17 +29,18 @@ export const projectsData: Project[] = [
   },
 
   {
-    title: "Portfolio-React Website",
+    title: "taskify",
     description:
-      "A modern React-based portfolio showcasing my projects, skills, and experience in web development with a clean and responsive design.",
+      "Taskify is a simple and intuitive todo list app that helps you manage tasks with filtering and local storage support.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFGBTwrc-m2PX_3YlVq-RcE25W8wv96dBTw&s",
+      "https://www.creativefabrica.com/wp-content/uploads/2018/12/Checklist-icon-to-do-list-file-ready-Icon-EPS10-by-Kanggraphic-580x386.jpg",
     technologies: [
       { name: "React", color: "bg-blue-100 text-blue-800" },
-      { name: "TypeScript", color: "bg-green-100 text-green-800" },
+      { name: "JavaScript", color: "bg-yellow-100 text-yellow-800" },
     ],
+
     demoUrl: "#",
-    codeUrl: "https://github.com/ghostnumbz/Portfolio-react",
+    codeUrl: "https://github.com/ghostnumbz/taskify-react",
   },
 
   {
